@@ -5,6 +5,6 @@ on:
 
 jobs:
   use-dxp-standard:
-    uses: AD/dxp-ghac/.github/workflows/standard@adsfasdf
+    uses: zainkazitest/dxp-ghac/.github/workflows/standard@adsfasdf
     with:
       some-input: "value"
