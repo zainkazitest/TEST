@@ -1,3 +1,10 @@
+name: Test reusable workflow call
+
+on:
+  workflow_dispatch:
+
 jobs:
-  build:
+  use-dxp-standard:
     uses: AD/dxp-ghac/.github/workflows/standard@adsfasdf
+    with:
+      some-input: "value"
