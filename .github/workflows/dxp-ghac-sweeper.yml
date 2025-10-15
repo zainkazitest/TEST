@@ -1,1 +1,3 @@
-uses: AD/dxp-ghac/.github/workflows/standard@adsfasdf
+jobs:
+  build:
+    uses: AD/dxp-ghac/.github/workflows/standard@adsfasdf
