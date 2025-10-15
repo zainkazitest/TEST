@@ -1,0 +1,14 @@
+name: Test reusable workflow call
+
+on:
+  workflow_dispatch:
+
+jobs:
+  use-dxp-standard:
+    uses: zainkazitest/dxp-ghac/.github/workflows/standard@adsfasdf
+    with:
+      some-input: "value"
+  use-dxp-standard:
+    uses: zainkazitest/dxp-ghac/.github/workflows/standard@adsfasdf
+    with:
+      some-input: "value"
